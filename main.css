@@ -1,22 +1,22 @@
 @font-face {
-    font-family: "Barlow";
-    src: url("fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf")
-    format("truetype");
+  font-family: "Barlow";
+  src: url("fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf")
+  format("truetype");
 }
 @font-face {
-    font-family: "Barlow-Light";
-    src: url("fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf")
-    format("truetype");
+  font-family: "Barlow-Light";
+  src: url("fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf")
+  format("truetype");
 }
 @font-face {
-    font-family: "Linearicons";
-    src: url("fonts/Linearicons.ttf") format("truetype");
+  font-family: "Linearicons";
+  src: url("fonts/Linearicons.ttf") format("truetype");
 }
 
 
 body{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; 
 } 
 .top-half{
   margin: 0 1rem 0 1rem;
@@ -25,20 +25,20 @@ body{
   height: 50px;
 }
 .h2{
-    font-family: "Barlow", sans-serif;
-    font-size: 34px; 
-    color: #005971;
-    display: inline-block;
+  font-family: "Barlow", sans-serif;
+  font-size: 34px; 
+  color: #005971;
+  display: inline-block;
 }
 .h3{
-    font-family: "Barlow", sans-serif;
-    font-size: 26px; 
-    color: #005971;
+  font-family: "Barlow", sans-serif;
+  font-size: 26px; 
+  color: #005971;
 }
 .h4{
-    font-family: "Barlow", sans-serif;
-    font-size: 20px; 
-    color: #005971;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px; 
+  color: #005971;
 } 
 #bold{
   font-weight: 800;
@@ -233,14 +233,10 @@ img{
     background-color: #00739c;
   }
 } 
-
-
 .new-content{
   animation: fade 2s; 
   animation-fill-mode: forwards;
-
 } 
-
 @keyframes fade{
   from{
     opacity: 0;
@@ -251,15 +247,10 @@ img{
 } 
 
 
-
-
-
-
 @media(min-width: 576px){
   #hero-title{
     font-size: 39px;
   } 
-
   #article-top{
     box-sizing: border-box;
   }
@@ -269,19 +260,15 @@ img{
   #hero-title{
     font-size: 55px;
   }
-
   #jumbotron{
     height: 275px;
   }
-
   #reading-time{
     font-size: 19px;
   } 
-
   #agreement{
     margin: 0.5rem 3rem 0 3rem;
   }
-
   .numbers{
     width: 80px;
   }
@@ -291,36 +278,29 @@ img{
   body{
     font-size: 16px;
   }
-
   #jumbotron{
     height: 481px;
   }
-
   #header-text{
     top: 100px;
   }
-
   #hero-title{
     font-size: 60px;
   }
-
   #health-block{
     font-size: 14px;
     width: 71px; 
     height: 28px;
     left: 15px;
   }
-  
   #reading-time{
     font-size: 14px;
   }
-
   #article-by{
     padding-left: 0.8rem;
     width: 120px;
     font-size: 14px;
   }
-
   #subheading{
     float: left;
     border-bottom: 2px solid rgb(50, 156, 50);
@@ -330,32 +310,26 @@ img{
   #share-test{
     display: none;
   }
-
   #test-heart{
     padding-left: 0;
   }
   #heart-icon{
     height: auto;
-    width: 30px; 
-    
+    width: 30px;  
   }
   #test-dots{
     padding: 0;
   }
-
   #share-icon{
     display: none;
   }
-
   hr{
     display: none;
   }
- 
   #split-img{
     float: left;
     padding-right: 15px;
   }
-
   #desktop-image{
     width: 366px;
     height: 337px;
@@ -363,42 +337,33 @@ img{
     padding-right: 40px;
     margin-bottom: 2rem;
   }
-
   #blockquote{
     font-size: 50px;
   }
-
   .options-list{
     justify-content: space-between;
   }
-
   #agreement{
     display: flex;
     justify-content: space-between;
     margin: 20px 0 -40px 0;
     font-size: 16px; 
   }
-
   .numbers{
     width: 100%;
   }
-
   #textmsg2{
     display: flex;
   }
-
   #long-text{
     margin-right: 5px;
   }
-
   #short-text{
     margin-right: 5px;
   }
-
   #footer-image{
     display: none;
   } 
-
   #dropdownButton{
     border-radius: 25px;
     width: 500px;
@@ -412,53 +377,42 @@ img{
   body{
     font-size: 18px;
   }
-
   #jumbotron{
     height: 481px;
   }
-
   #header-text{
     top: 141px;
   }
-
   #hero-title{
     font-size: 80px;
   }
-
   #health-block{
     font-size: 14px;
     width: 71px; 
     height: 28px;
     left: 15px;
   }
-  
   #reading-time{
     font-size: 14px;
   }
-
   #article-by{
     padding-left: 1rem;
   }
-
   #subheading{
     float: left;
     border-bottom: 2px solid rgb(50, 156, 50);
     height: 70px;
   }
-
   #share-icon{
     display: none;
   }
-
   hr{
     display: none;
   }
- 
    #split-img{
     float: left;
     padding-right: 15px;
   }
-
   #desktop-image{
     width: 366px;
     height: 337px;
@@ -466,42 +420,33 @@ img{
     padding-right: 40px;
     margin-bottom: 2rem;
   }
-
   #blockquote{
     font-size: 50px;
   }
-
   .options-list{
     justify-content: space-between;
   }
-
   #agreement{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 0px 0;
-    
+    margin: 20px 0 0px 0; 
   }
-
   .numbers{
     width: 100px;
   }
-  
+
   #textmsg2{
     display: flex;
   }
-
   #long-text{
     margin-right: 5px;
   }
-
   #short-text{
     margin-right: 5px;
   }
-
   #footer-image{
     display: none;
   } 
-
   #dropdownButton{
     border-radius: 25px;
     width: 500px;
